@@ -1,26 +1,41 @@
 *{margin:0;padding:0;}
-body{background-color: #EEE;}
-.container{max-width: 1000px;background-color: rgb(194, 228, 228);margin:0 auto;padding: 20px;}
-header{}
-.profile-image{width: 80px;height: 85px;border:3px solid white;border-radius: 50%;float: left;margin-top: 10px;}
-.header-bio{float:left;padding: 30px;}
-h1,h2,h3,h4,h5,h6{color: #0b7f83;}
-.header-contact{float:right;padding: 30px;}
-.header-contact a{text-decoration: none;color: teal;font-weight: bold;}
-.header-contact a:hover{text-decoration: underline;color: tomato;}
-.div-clear{clear:both;}
-hr{border:solid black 3px;width:100%;margin:20px auto;border-bottom: none;}
-/*-----Personal information Start-----*/
-#personal-section{}
-.content{margin-bottom: 30px;}
-.left-div{width: 30%;float: left;}
-.Right-div{width: 70%;float:left;}
-.common-hr{border: solid black 1px;border-bottom: none;width: 100%;margin: 20px auto;}
 
-.product-image{width:30%;height: 30%;}
-/*-----Personal information end-----*/
-/*-----footer Start-----*/
-.bottom-container{background-color: black;text-align: center;padding: 10px;}
-.bottom-container a{color: white;text-decoration: none;}
-.bottom-container a:hover{text-decoration: underline;color:tomato;}
-.bottom-container p{color: white;margin-top:10px;}
+
+#head_section{
+    background-color:blanchedalmond;
+    padding: 50px 0px;
+    color:rgb(2, 97, 2);
+    /* font-family: "Arial", sans-serif; */
+    font-weight:800;
+    text-align: center;
+}
+#head_section h1{
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+#about_section{
+    padding: 50px 0px;
+    background-color:beige;
+    text-align: center;
+}
+.double-hr {
+    border: 0;
+    height: 4px;
+    border-top: 2px solid #fd0d0d;
+    border-bottom: 2px solid #ff0808;
+    margin: 20px 0;
+    
+}
+
+    
+#producr_section{
+    padding: 50px 0px;
+    background-color:azure;
+    text-align: center;
+}
+#footer_section{
+
+    background-color:blanchedalmond;
+    padding: 20px 0px;
+    text-align: center;
+}
